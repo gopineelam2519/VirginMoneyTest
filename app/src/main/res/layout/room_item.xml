@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:contentDescription="@string/room_item_desc"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/roomAvatar_img"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/roomAvatar_img_desc"
+            android:src="@drawable/ic_baseline_king_bed_24" />
+
+        <TextView
+            android:id="@+id/roomOccupied_txt"
+            style="@style/text_medium"
+            android:gravity="center"
+            android:contentDescription="@string/roomOccupied_txt_desc"
+            android:padding="@dimen/_8sdp"
+            tools:text="RoomId:1" />
+
+        <TextView
+            android:id="@+id/roomCapacity_txt"
+            style="@style/text_small"
+            android:contentDescription="@string/roomCapacity_txt_desc"
+            android:gravity="center"
+            tools:text="Max Capacity" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

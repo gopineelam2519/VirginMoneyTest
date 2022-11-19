@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackgroundBorderless">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/person_item_desc"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:padding="@dimen/_8sdp"
+            android:contentDescription="@string/avatar_img_desc"
+            android:src="@drawable/ic_baseline_broken_image_24" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/personName_txt"
+                style="@style/text_medium"
+                android:contentDescription="@string/personName_txt_desc"
+                tools:text="Gopi Neelam" />
+
+            <TextView
+                android:id="@+id/jobTitle_txt"
+                style="@style/text_small"
+                android:contentDescription="@string/jobTitle_txt_desc"
+                tools:text="Gopi Neelam" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

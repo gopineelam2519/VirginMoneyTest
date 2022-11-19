@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VirginMoney</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="peoples">Peoples</string>
+    <string name="rooms">Rooms</string>
+    <string name="roomAvatar_img_desc">Room Image</string>
+    <string name="roomOccupied_txt_desc">Room Occupancy</string>
+    <string name="roomCapacity_txt_desc">Total Capacity</string>
+    <string name="room_item_desc">Single Room item view</string>
+    <string name="personName_txt_desc">Person Name</string>
+    <string name="jobTitle_txt_desc">Job Title</string>
+    <string name="avatar_img_desc">Person Profile Picture</string>
+    <string name="person_item_desc">Person item view</string>
+    <string name="roomsList_desc">All Rooms List</string>
+    <string name="personDetailEmail_txt_desc">Person Email id</string>
+    <string name="peoplesList_desc">Peoples List</string>
+    <string name="peoplesBtn_desc">Peoples Button</string>
+    <string name="roomsBtn_desc">Rooms Button</string>
+    <string name="emptyList_msg">Nothing Found</string>
+
+    <string name="jobTitleDynamic">Job Title: %s</string>
+    <string name="emailIdDynamic">Email Id: %s</string>
+</resources>
